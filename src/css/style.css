@@ -181,3 +181,7 @@ html, body {
 .link-unstyled:hover {
     color: #5fb709;
 }
+
+.icon-footer-app {
+    height: 1.8rem;
+}
