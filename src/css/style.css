@@ -33,6 +33,10 @@ html, body {
     padding-left: 18rem;
 }
 
+.content-sc-5 {
+    padding-top: 17rem;
+}
+
 .bg-img-1 {
     height: 50rem;
     background-image: url(../assets/images/bg-section-1.png);
@@ -158,4 +162,22 @@ html, body {
     border-right: 1px solid rgb(204, 204, 204);
     margin-right: 2rem;
     padding-right: 2rem;
+}
+
+.icon-beneficios {
+    height: 3rem;
+}
+
+.title-beneficios {
+    font-size: 1.5rem;
+}
+
+.link-unstyled {
+    font-size: 0.9rem;
+    color: white;
+    margin-top: 2rem;
+}
+
+.link-unstyled:hover {
+    color: #5fb709;
 }
