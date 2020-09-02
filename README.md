@@ -14,7 +14,7 @@ Codifique o front-end do layout abaixo:
 ---
 
 <div align='center' width='1100'>
-<img src=".github/thumbnail.png">
+<img src=".github/thumbnail.jpg">
 </div>
 
 # 💻 Tecnologias
