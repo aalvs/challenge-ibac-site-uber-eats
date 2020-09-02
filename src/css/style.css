@@ -10,8 +10,7 @@ html, body {
 }
 
 .navbar {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 0;
 }
 
 .row-ceter-content {
@@ -40,8 +39,9 @@ html, body {
 .bg-img-1 {
     height: 50rem;
     background-image: url(../assets/images/bg-section-1.png);
-    background-size: cover;
     background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -81,7 +81,7 @@ html, body {
 }
 
 .bg-img-5 {
-    height: 100vh;
+    height: 110vh;
     background-image: url(../assets/images/bg-section-5.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -92,9 +92,9 @@ html, body {
 }
 
 .bg-img-6 {
-    height: 100vh;
+    height: 84vh;
     background-image: url(../assets/images/bg-section-6.png);
-    background-position: bottom;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
@@ -136,14 +136,27 @@ html, body {
     border-radius: 0;
 }
 
+.avatar-user {
+    height: 3rem;
+}
+
 .navbar-collapse {
     background-color: transparent;
 }
 
 .page-footer {
-    height: 25rem;
+    height: 22rem;
     background-color: #262626;
     padding-top: 5rem;
+}
+
+.btn-menu {
+    background-color: #5fb709;
+    padding: 0.6rem;
+}
+
+.navbar-brand {
+    padding-left: 13rem;
 }
 
 .icon-app {
@@ -184,4 +197,16 @@ html, body {
 
 .icon-footer-app {
     height: 1.8rem;
+}
+
+.text-span-copy {
+    margin-top: 8rem;
+    font-weight: 400;
+    color: #4b4b4b;
+    padding-left: 1.1rem;
+}
+
+.tag-name {
+    font-weight: 400;
+    color: white;
 }
